@@ -1,11 +1,16 @@
 import React from 'react';
 import '../App.css';
+import NavBar from './Components/NavBar';
+
 
 function GuidePage() {
     return (
-        <div>
-            <h1>Hola</h1>
+        <>
+        <NavBar />
+        <div className="intruduccion">
+            <h1>Hola como están?</h1>
         </div>
+        </>
     );
 }
 
