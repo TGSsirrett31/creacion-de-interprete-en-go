@@ -1,6 +1,6 @@
 import React from 'react';
-import '../App.css';
-import NavBar from './Components/NavBar';
+import '../Styles.css';
+import NavBar from '../Components/NavBar';
 
 
 function GuidePage() {

@@ -1,0 +1,117 @@
+.navbar {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: left 0.3s ease;
+  }
+  
+  .navbar.open {
+    left: 0;
+  }
+  
+  .navbar-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-item {
+    margin-bottom: 10px;
+  }
+  
+  .navbar-link {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-link.active {
+    background-color: #5865F2;
+    font-weight: bold;
+  }
+  
+  .menu-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+  .menu-toggle img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+  }
+  
+  /* Estilos específicos para NavButtons.jsx */
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    gap: 20px;
+  }
+  
+  .nav-button {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  .nav-button:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+  }
+  
+  .nav-button .nav-button-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-button .nav-arrow {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .nav-button .nav-label {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .next-button .nav-button-text {
+    justify-content: space-between;
+  }
+  
+  .next-button .nav-arrow {
+    margin-left: 0.5rem;
+  }
+  
+  .prev-button .nav-arrow {
+    margin-right: 0.5rem;
+  }

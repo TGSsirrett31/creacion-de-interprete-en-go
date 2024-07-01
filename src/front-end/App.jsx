@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './Pages/homePage';
 import GuidePage from './Pages/guidePage';
-import HelloWorld from './Pages/Sections/helloWorldInGo';
-import Epp from './Pages/Sections/start';
-import './App.css';
+import HelloWorld from './Pages/helloWorldInGo';
+import Epp from './Pages/start';
+import './Styles.css';
+import './Components/componentStyles.css';
 
 function App() {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import arrowLeft from '../../assets/arrowLeft.svg';
-import arrowRight from '../../assets/arrowRight.svg';
-import '../../App.css';
+import arrowLeft from '../assets/arrowLeft.svg';
+import arrowRight from '../assets/arrowRight.svg';
+import './componentStyles.css';
 
 function NavButtons({ prevLink, prevText, nextLink, nextText }) {
   return (

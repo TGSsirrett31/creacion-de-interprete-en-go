@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../Styles.css';
 import githubImg from '../assets/github.svg';
 import { Link } from 'react-router-dom';
 

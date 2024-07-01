@@ -1,4 +1,4 @@
-import '../../App.css'
+import '../Styles.css'
 import NavBar from '../Components/NavBar'
 
 function Epp(){
